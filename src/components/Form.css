@@ -1,0 +1,262 @@
+/* Sidebar Starts Here */
+.sidebar {
+  display: inline-block;
+  position:fixed;
+  width: 70px;
+  background-color: #2E86C1 ;
+}
+.sidebar i {
+  padding: 30px 0 10px 20px;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+}
+/* Sidebar Ends Here */
+
+/* Image Starts here */
+
+.flex-container{
+  display: flex;
+}
+.imgname{
+  border-radius: 60%;
+  width: 85px;
+  margin-left: 85%;
+  margin-top:10px;
+  height:45px;
+  font-weight: bold;
+}
+.image1{
+    border-radius: 60%;
+    width: 50px;
+    height:45px;
+}
+
+/* Image Ends here */
+
+
+/* Round Switch starts here */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+/* Round Switch starts here */
+
+.header{
+  margin: 0 0 0 120px;
+  font-size: 30px;
+}
+/* Round Switch Ends here */
+
+/* Section Part Starts here */
+.container{
+  display: inline-block;
+  position:relative;
+  margin:30px 30px 20px 340px;
+  box-shadow: 1px 1px 10px 1px black;
+  height: 100%;
+  width: 60%;
+}
+.det{
+  padding-left: 15px;
+  padding: 15px 0 0 10px;
+}
+.leftsec div{
+  height: 100%;
+  width: auto;
+  padding: 0 10px 10px 10px;
+}
+.btn1{
+  width:365px;
+  background-color: white;
+  text-align: left;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: normal;
+}
+
+.rightsec{
+  height: 100%;
+  padding: 15px 0 0 70px;
+}
+
+/* Vital info css starts here */
+
+.input1{
+  width: 100%;
+  
+  position: relative;
+}
+.form-control3{
+width: 55px;
+height: 30px;
+}
+.inputtext1{
+  margin-left: 5px;
+  width: 60px;
+height: 30px;
+color: white;
+background-color: gray;
+padding: 5px;
+  }
+  .inputtext2{
+    margin-left: 5px;
+    width: 60px;
+  height: 30px;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+    }
+    .inputtext3{
+      margin-left: 5px;
+      width: 60px;
+    height: 30px;
+    color: white;
+    background-color: gray;
+    padding: 5px;
+      }
+      .inputtext4{
+        margin-left: 5px;
+        width: 60px;
+      height: 30px;
+      color: white;
+      background-color: gray;
+      padding: 5px;
+        }
+        .inputtext5{
+          margin-left: 5px;
+          width: 60px;
+        height: 30px;
+        color: white;
+        background-color: gray;
+        padding: 5px;
+          }
+          .inputtext6{
+            margin-left: 5px;
+            width: 60px;
+          height: 30px;
+          color: white;
+          background-color: gray;
+          padding: 5px;
+            }
+  /* Vital info css ENDS here */
+
+  .desc{
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+  }
+  #w3review{
+    text-align: left;
+    justify-content: left;
+    width: 300px;
+    margin-left: 30px;
+  }
+  #w3review1{
+    text-align: left;
+    justify-content: left;
+    width: 300px;
+    margin-left: 70px;
+  }
+
+
+  /* Buttons */
+
+  .btn2{
+    /* border-radius: 40%; */
+    border-radius: 40px;
+    width: 150px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #2E86C1 ;
+    margin-top: 15px;
+    margin-bottom: -10px;
+  }
+  .btn3{
+    /* border-radius: 40%; */
+    border-radius: 40px;
+    width: 150px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #2E86C1 ;
+    margin-top: 15px;
+    margin-bottom: -10px;
+  }
+
+  .btn4{
+    
+      width:300px;
+      background-color: white;
+      text-align: left;
+      padding: 6px;
+      border-radius: 5px;
+      font-weight: normal;
+      margin-top: 10px;
+  }
+
+  /* Footer css  */
+  .footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+
+
+  
